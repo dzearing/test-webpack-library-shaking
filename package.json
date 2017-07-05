@@ -1,0 +1,14 @@
+{
+  "name": "test-webpack-library-shaking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "rush install",
+    "build": "rush rebuild"
+  },
+  "author": "",
+  "devDependencies": {
+    "@microsoft/rush": "^3.0.11"
+  }
+}

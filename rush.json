@@ -1,0 +1,24 @@
+{
+    "npmVersion": "5.0.3",
+    "rushMinimumVersion": "3.0.11",
+    "nodeSupportedVersionRange": ">=6.9.0 <9.0.0",
+    "projectFolderMinDepth": 1,
+    "projectFolderMaxDepth": 999,
+    "projects": [
+        {
+            "packageName": "test-app",
+            "projectFolder": "packages/test-app",
+            "shouldPublish": false
+        },
+        {
+            "packageName": "test-library",
+            "projectFolder": "packages/test-library",
+            "shouldPublish": false
+        },
+        {
+            "packageName": "test-library-2",
+            "projectFolder": "packages/test-library-2",
+            "shouldPublish": false
+        }
+    ]
+}

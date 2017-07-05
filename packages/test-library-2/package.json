@@ -1,0 +1,16 @@
+{
+  "name": "test-library-2",
+  "version": "1.0.0",
+  "description": "",
+  "module": "lib-es6/index.js",
+  "scripts": {
+    "clean": "",
+    "build": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.0.0",
+    "webpack-bundle-analyzer":"^2.8.2"
+  }
+}
