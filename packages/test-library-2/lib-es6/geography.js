@@ -10,6 +10,6 @@ export function doGeography3() {
   console.log('doGeography3');
 }
 
-//export var places = ['California', 'Oregon'];
-//export var morePlaces = places.concat(['Nevada', 'Idaho']);
+export var places = ['California', 'Oregon'];
+export var morePlaces = places.concat(['Nevada', 'Idaho']);
 

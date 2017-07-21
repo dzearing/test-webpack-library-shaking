@@ -1,3 +1,6 @@
-import { doEnglish1 } from './test-library';
+import { ES5Rectangle, doGeography1 } from './test-library';
 
-doEnglish1();
+// var rect = new ES5Rectangle();
+// rect.log('hi');
+
+doGeography1();

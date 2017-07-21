@@ -9,8 +9,3 @@ export function doMath2() {
 export function doMath3() {
   console.log('doMath3');
 }
-
-
-export var foo = 'fjkldfjklsdfjksdlafjsdklfdsjkl';
-
-foo.bar = 'asdf';

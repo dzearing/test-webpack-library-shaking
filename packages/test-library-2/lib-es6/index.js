@@ -4,4 +4,5 @@ export {
   doGeography2,
   doGeography3
 } from './geography';
-// export { ES6Rectangle } from './ES6Rectangle';
+export { ES5Rectangle } from './ES5Rectangle';
+export { ES6Rectangle } from './ES6Rectangle';

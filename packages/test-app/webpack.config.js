@@ -1,7 +1,7 @@
 const path = require('path');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 const webpack = require('webpack');
-
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const PACKAGE_NAME = 'test-app';
 
 module.exports = {
@@ -19,12 +19,12 @@ module.exports = {
 
     new webpack.optimize.ModuleConcatenationPlugin(),
 
-    // new webpack.optimize.UglifyJsPlugin({
-    //   minimize: true,
-    //   compress: {
-    //     warnings: false
-    //   }
-    // }),
+    new UglifyJsPlugin({
+      minimize: true,
+      compress: {
+        warnings: false
+      }
+    }),
 
     new BundleAnalyzerPlugin({
       analyzerMode: 'static',

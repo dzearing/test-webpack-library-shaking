@@ -9,10 +9,11 @@
   },
   "author": "",
   "devDependencies": {
+    "uglifyjs-webpack-plugin": "^1.0.0-beta.1",
     "webpack": "^3.0.0",
-    "webpack-bundle-analyzer":"^2.8.2"
+    "webpack-bundle-analyzer": "^2.8.2"
   },
   "dependencies": {
-    "test-library": "^1.0.0"    
+    "test-library": "^1.0.0"
   }
 }
