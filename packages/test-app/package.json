@@ -5,13 +5,12 @@
   "main": "index.js",
   "scripts": {
     "clean": "",
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack"
   },
   "author": "",
   "devDependencies": {
-    "uglifyjs-webpack-plugin": "^1.0.0-beta.1",
-    "webpack": "^3.0.0",
-    "webpack-bundle-analyzer": "^2.8.2"
+    "webpack": "^4.1.1",
+    "webpack-bundle-analyzer": "^2.11.1"
   },
   "dependencies": {
     "test-library": "^1.0.0"

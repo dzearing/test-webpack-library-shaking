@@ -10,10 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^3.0.0",
-    "webpack-bundle-analyzer":"^2.8.2"
-  },
-  "dependencies": {
-    "test-library-2": "^1.0.0"
+    "webpack": "^4.1.1",
+    "webpack-bundle-analyzer": "^2.11.1"
   }
 }

@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "rush install",
-    "build": "rush rebuild"
+    "_rushInstall": "node node_modules/@microsoft/rush/bin/rush install -c",
+    "_rushBuild": "node node_modules/@microsoft/rush/bin/rush build --verbose",
+    "postinstall": "npm run _rushInstall",
+    "build": "npm run _rushInstall && npm run _rushBuild"
   },
   "author": "",
   "devDependencies": {
-    "@microsoft/rush": "^3.0.11"
+    "@microsoft/rush": "^4.3.0"
   }
 }
