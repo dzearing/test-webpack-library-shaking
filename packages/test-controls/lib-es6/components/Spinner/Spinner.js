@@ -1,3 +1,5 @@
+import { BaseComponent } from 'test-utils';
+
 var Spinner = /** @class */ (function (_super) {
   function Spinner() {
     return _super !== null && _super.apply(this, arguments) || this;
@@ -8,6 +10,6 @@ var Spinner = /** @class */ (function (_super) {
   };
 
   return Spinner;
-})();
+}(BaseComponent));
 
 export { Spinner };

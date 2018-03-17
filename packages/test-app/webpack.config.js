@@ -16,6 +16,13 @@ module.exports = {
 
   mode: 'production',
 
+  devtool: 'source-map',
+
+  stats: 'errors-only',
+
+  optimization: {
+    minimize: false
+  },
   plugins: [
     new BundleAnalyzerPlugin({
       analyzerMode: 'static',

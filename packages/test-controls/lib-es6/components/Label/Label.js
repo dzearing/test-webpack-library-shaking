@@ -1,3 +1,6 @@
+import { BaseComponent } from 'test-utils';
+import './Label.scss';
+
 var Label = /** @class */ (function (_super) {
   function Label() {
     return _super !== null && _super.apply(this, arguments) || this;
@@ -8,6 +11,6 @@ var Label = /** @class */ (function (_super) {
   };
 
   return Label;
-})();
+}(BaseComponent));
 
 export { Label };

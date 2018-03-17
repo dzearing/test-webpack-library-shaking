@@ -9,8 +9,13 @@
       "shouldPublish": false
     },
     {
-      "packageName": "test-library",
-      "projectFolder": "packages/test-library",
+      "packageName": "test-controls",
+      "projectFolder": "packages/test-controls",
+      "shouldPublish": false
+    },
+    {
+      "packageName": "test-utils",
+      "projectFolder": "packages/test-utils",
       "shouldPublish": false
     }
   ]

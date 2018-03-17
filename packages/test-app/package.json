@@ -13,6 +13,6 @@
     "webpack-bundle-analyzer": "^2.11.1"
   },
   "dependencies": {
-    "test-library": "^1.0.0"
+    "test-controls": "^1.0.0"
   }
 }

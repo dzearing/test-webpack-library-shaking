@@ -6,19 +6,19 @@
   "dependencies": {
     "@rush-temp/test-app": {
       "version": "file:projects/test-app.tgz",
-      "integrity": "sha1-d5YHTxbgJJMGmegsmKC3PQefhVI=",
+      "integrity": "sha1-LqoGZGuQZb30Onwh+TfKqedjVJo=",
       "requires": {
         "webpack": "4.1.1",
         "webpack-bundle-analyzer": "2.11.1"
       }
     },
-    "@rush-temp/test-library": {
-      "version": "file:projects/test-library.tgz",
-      "integrity": "sha1-5bAI/+rTk9oPCGCatINDWLaj95w=",
-      "requires": {
-        "webpack": "4.1.1",
-        "webpack-bundle-analyzer": "2.11.1"
-      }
+    "@rush-temp/test-controls": {
+      "version": "file:projects/test-controls.tgz",
+      "integrity": "sha1-I+KeTQvQRxrUQ9pAy+y0avc97uI="
+    },
+    "@rush-temp/test-utils": {
+      "version": "file:projects/test-utils.tgz",
+      "integrity": "sha1-U1D6WSP16gjE80rvqE6xKSnxmTw="
     },
     "accepts": {
       "version": "1.3.5",

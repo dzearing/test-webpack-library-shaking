@@ -1,16 +1,16 @@
 {
-  "name": "test-library",
+  "name": "test-controls",
   "version": "1.0.0",
   "description": "",
   "module": "lib-es6/index.js",
+  "sideEffects": false,
   "scripts": {
     "clean": "",
     "build": ""
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "webpack": "^4.1.1",
-    "webpack-bundle-analyzer": "^2.11.1"
+  "dependencies": {
+    "test-utils": "^1.0.0"
   }
 }

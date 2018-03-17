@@ -1,0 +1,11 @@
+{
+  "name": "test-utils",
+  "version": "1.0.0",
+  "description": "",
+  "module": "lib-es6/index.js",
+  "scripts": {
+    "clean": "",
+    "build": ""
+  },
+  "author": ""
+}

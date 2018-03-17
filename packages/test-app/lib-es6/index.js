@@ -1,8 +1,5 @@
-import { Spinner } from 'test-library';
+import { Label } from 'test-controls';
 
-// var rect = new ES5Rectangle();
-// rect.log('hi');
+var label = new Label();
 
-var spinner = new Spinner();
-
-spinner.render();
+label.render();
